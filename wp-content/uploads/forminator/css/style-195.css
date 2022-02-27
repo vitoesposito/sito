@@ -192,14 +192,14 @@
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input:active {
 					border-color: #ffffff;
 							background-color: #EDEDED;
-							color: #ffffff;
+							color: #000000;
 			}
 
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input input,
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input input:hover,
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input input:focus,
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input input:active {
-					color: #ffffff;
+					color: #000000;
 			}
 
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-input::placeholder {
@@ -288,7 +288,7 @@
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-textarea:active {
 					border-color: #ffffff;
 							background-color: #EDEDED;
-							color: #ffffff;
+							color: #000000;
 			}
 
 	.forminator-ui#forminator-module-195.forminator-design--default .forminator-is_hover .forminator-textarea {
@@ -957,7 +957,7 @@
 					border-color: #ffffff;
 				border-radius: 2px;
 					background-color: #EDEDED;
-							color: #ffffff;
+							color: #000000;
 				transition: 0.2s ease;
 	}
 
