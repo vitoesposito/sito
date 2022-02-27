@@ -1,9 +1,9 @@
 #forminator-module-43:not(.select2-dropdown) {
-					padding-top: 0;
-							padding-right: 0;
-							padding-bottom: 0;
-							padding-left: 0;
-			}
+		padding-top: 0;
+		padding-right: 0;
+		padding-bottom: 0;
+		padding-left: 0;
+	}
 
 
 	#forminator-module-43 {
@@ -17,7 +17,7 @@
 
 	#forminator-module-43 {
 					border-color: rgba(0,0,0,0);
-							background-color: rgba(0,0,0,0);
+							background-color: rgba(42,0,109,0);
 			}
 
 #forminator-module-43 .forminator-pagination-footer .forminator-button-paypal {
@@ -34,23 +34,23 @@
 
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error {
-					background-color: #F9E4E8;
-							box-shadow: inset 2px 0 0 0 #E04562;
-			-moz-box-shadow: inset 2px 0 0 0 #E04562;
-			-webkit-box-shadow: inset 2px 0 0 0 #E04562;
+					background-color: rgba(249,249,249,0);
+							box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
+			-moz-box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
+			-webkit-box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error:hover,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error:focus,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error:active {
-					box-shadow: inset 2px 0 0 0 #E04562;
-			-moz-box-shadow: inset 2px 0 0 0 #E04562;
-			-webkit-box-shadow: inset 2px 0 0 0 #E04562;
+					box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
+			-moz-box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
+			-webkit-box-shadow: inset 2px 0 0 0 rgba(224,224,224,0);
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-error p {
-					color: #333333;
+					color: #fcda00;
 			}
 
 
@@ -81,7 +81,7 @@
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-loading,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-response-message.forminator-loading p {
-					color: #666666;
+					color: #ffffff;
 			}
 
 
@@ -114,11 +114,11 @@
 
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-label {
-					color: #777771;
+					color: #ffffff;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-label .forminator-required {
-					color: #E04562;
+					color: #ffe500;
 			}
 
 
@@ -150,7 +150,7 @@
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-description,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-description p {
-					color: #777771;
+					color: #f2f2f2;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-description a {
@@ -174,8 +174,8 @@
 
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-error-message {
-					background-color: #F9E4E8;
-							color: #E04562;
+					background-color: rgba(249,249,249,0);
+							color: #ffe500;
 			}
 
 
@@ -190,36 +190,36 @@
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input:hover,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input:focus,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input:active {
-					border-color: #777771;
+					border-color: #ffffff;
 							background-color: #EDEDED;
-							color: #000000;
+							color: #ffffff;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input input,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input input:hover,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input input:focus,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input input:active {
-					color: #000000;
+					color: #ffffff;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input::placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input:-moz-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input::-moz-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input:-ms-input-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-input::-webkit-input-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-is_hover .forminator-input {
@@ -286,9 +286,9 @@
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea:hover,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea:focus,
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea:active {
-					border-color: #777771;
+					border-color: #ffffff;
 							background-color: #EDEDED;
-							color: #000000;
+							color: #ffffff;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-is_hover .forminator-textarea {
@@ -306,23 +306,23 @@
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea::placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea:-moz-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea::-moz-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea:-ms-input-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 	.forminator-ui#forminator-module-43.forminator-design--default .forminator-textarea::-webkit-input-placeholder {
-					color: #888888;
+					color: #686868;
 			}
 
 
@@ -954,10 +954,10 @@
 		padding: 9px;
 		border-width: 1px;
 		border-style: solid;
-					border-color: #777771;
+					border-color: #ffffff;
 				border-radius: 2px;
 					background-color: #EDEDED;
-							color: #000000;
+							color: #ffffff;
 				transition: 0.2s ease;
 	}
 
@@ -977,3 +977,5 @@
 	.forminator-ui#forminator-module-43.forminator-design--default .StripeElement--focus.StripeElement--invalid {
 					border-color: #E04562;
 			}
+
+.forminator-ui.forminator-custom-form-43.forminator-design--default .forminator-textarea{border-radius: 5px !important;}.forminator-ui.forminator-custom-form-43.forminator-design--default .forminator-input{border-radius: 5px !important;}
