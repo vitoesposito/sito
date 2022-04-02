@@ -35,11 +35,27 @@
 		var themeName = selector.theme;
 
 		/** Support for TwentyTwenty theme */
-		if ('' !== contentSelector) {
-			itemSelector =
-				selector['contentSelector'] + ' ' + selector['itemSelector'];
+		if( 'twentytwenty' === themeName ) {
+			if ('' !== contentSelector) {
+				itemSelector =
+					selector['contentSelector'] + ' ' + selector['itemSelector'];
+			} else {
+				itemSelector = selector['itemSelector'];
+			}
 		} else {
-			itemSelector = selector['itemSelector'];
+			if (
+				"." !== selector.contentSelector.charAt(0) &&
+				"#" !== selector.contentSelector.charAt(0)
+			) {
+				if ($("." + selector.contentSelector).length) {
+				contentSelector = "." + selector.contentSelector;
+				} else if ($("#" + selector.contentSelector).length) {
+				contentSelector = "#" + selector.contentSelector;
+				}
+			} else {
+				contentSelector = selector.contentSelector;
+			}
+			itemSelector = contentSelector + " " + selector['itemSelector'];
 		}
 
 		var destUrl = $(nextSelector).attr('href');
